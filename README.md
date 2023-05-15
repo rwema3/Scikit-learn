@@ -1,2 +1,2 @@
 # Thungs
-the thungs for Rwema dart tea
+the thungs for Rwema dart te
