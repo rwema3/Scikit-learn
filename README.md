@@ -1,2 +1,2 @@
 # Thungs
-the thun
+the thungs
