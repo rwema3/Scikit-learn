@@ -1,2 +1,2 @@
 # Thungs
-the thungs for Rwema 
+the thungs for Rwema da
