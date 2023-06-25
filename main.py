@@ -10,3 +10,5 @@ def makeCommits (days : int):
         
         # staging 
         os.system('git add data.txt')
+
+      
