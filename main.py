@@ -8,6 +8,7 @@ def makeCommits (days : int):
         with open('data.txt', 'a') as file:
             file.write(f'{dates} <- This was the commit for the !daY!!\n')
         
+        # staging 
 
         return days * makeCommits(days - 1)
     
