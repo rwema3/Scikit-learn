@@ -6,6 +6,8 @@ def makeCommits (days : int):
     else:
         dates = f"{days} days ago"
         with open('data.txt', 'a') as file:
+            file.write(f'{dates} <- This was the commit for the !daY!!\n')
+        
 
         return days * makeCommits(days - 1)
     
