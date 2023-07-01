@@ -12,7 +12,7 @@ def makeCommits (days : int):
         os.system('git add data.txt')
 
       
-        os.system('git commit --date="'+ dates +'" -m "cupertino library Null safety ."')
+        os.system('git commit --date="'+ dates +'" -m "cupertino library Null safety Flutter."')
 
         return days * makeCommits(days - 1)
     
