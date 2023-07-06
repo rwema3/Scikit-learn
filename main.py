@@ -6,4 +6,6 @@ def makeCommits (days : int):
     else:
         dates = f"{days} days ago"
         
+        return days * makeCommits(days - 1)
+    
 makeCommits(3)
