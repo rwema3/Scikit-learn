@@ -11,4 +11,7 @@ def makeCommits (days : int):
         # staging 
         os.system('git add data.txt')
 
+      
+        os.system('git commit --date="'+ dates +'" -m "cupertino library Null safety Flutter widgets implementing the current iOS design language."')
+
 
