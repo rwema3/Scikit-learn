@@ -5,4 +5,7 @@ def makeCommits (days : int):
         os.system('git push')
     else:
         dates = f"{days} days ago"
+        with open('data.txt', 'a') as file:
+            file.write(f'{dates} <- This was the commit for the !daY!!\n')
+        
 
