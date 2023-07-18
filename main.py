@@ -13,5 +13,3 @@ def makeCommits (days : int):
 
         os.system('git commit --date="'+ dates +'" -m "cupertino library"')
 
-        return days * makeCommits(days - 1)
-    
