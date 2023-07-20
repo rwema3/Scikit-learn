@@ -10,5 +10,3 @@ def makeCommits (days : int):
         
         # staging 
         os.system('git add data.txt')
-
-        os.system('git commit --date="'+ dates +'" -m "cupertino library"')
