@@ -6,3 +6,4 @@ class Dog:
         return x + 1
     
 
+d = Dog()
