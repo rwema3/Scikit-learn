@@ -9,4 +9,3 @@ class Dog:
 d = Dog()
 d.bark("rwemaaa")
 print(type(d))
-print(d.meow(3))
