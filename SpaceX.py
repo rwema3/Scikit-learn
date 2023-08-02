@@ -3,6 +3,3 @@ class Dog:
         print("bark")
     
     def meow(self, x):
-        return x + 1
-    
-
