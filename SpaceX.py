@@ -7,4 +7,3 @@ class Dog:
     
 
 d = Dog()
-d.bark("rwemaaa")
