@@ -8,4 +8,3 @@ class Dog:
 
 d = Dog()
 d.bark("rwemaaa")
-print(type(d))
