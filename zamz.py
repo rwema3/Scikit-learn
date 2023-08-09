@@ -10,4 +10,4 @@ class Computer:
 com1 = Computer("Dominque", 21)
 com2 = Computer("Dominque", 31)
 
-com1.config
+com1.configc
