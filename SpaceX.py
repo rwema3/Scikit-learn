@@ -1,1 +1,1 @@
-class Comput
+class Computer
