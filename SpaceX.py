@@ -1,1 +1,1 @@
-class Comp
+class Comput
