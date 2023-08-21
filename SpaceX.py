@@ -6,5 +6,3 @@ class Computer:
 
     def config(self):
         print("Configuration is", self.name, self.age)
-
-com1 = Computer("Dominque", 21)
