@@ -1,1 +1,1 @@
-class Computer:
+class Computer
