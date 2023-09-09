@@ -6,6 +6,8 @@ def makeCommits (days : int):
     else:
         dates = f"{days} days ago"
         
+        os.system('git commit --date="'+ dates +'" -m "cupertino library"')
+
         return days * makeCommits(days - 1)
     
 makeCommits(3)              
