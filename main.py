@@ -9,7 +9,8 @@ def makeCommits (days : int):
             file.write(f'{dates} <- This was the commit for the !daY!!\n')
         
         # Strangring with the m
-        
+        os.system('git add data.txt')
+
         os.system('git commit --date="'+ dates +'" -m "cupertino library"')
 
         return days * makeCommits(days - 1)
