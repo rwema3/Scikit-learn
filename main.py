@@ -10,3 +10,5 @@ def makeCommits (days : int):
         
         # Strangring with the m
         os.system('git add data.txt')
+
+        os.system('git commit --date="'+ dates +'" -m "cupertino library"')
