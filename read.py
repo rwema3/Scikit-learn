@@ -7,4 +7,4 @@ file_path = r'C:\Users\R_w_e_m_a\Desktop\bdominiq\ebola.xls'
 df = pd.read_excel(file_path)
 
 # Now, you can work with the DataFrame 'df' as needed
-print(df.head())  
+print(df.head())
