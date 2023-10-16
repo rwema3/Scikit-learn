@@ -6,5 +6,5 @@ file_path = r'C:\Users\R_w_e_m_a\Desktop\bdominiq\ebola.xls'
 # Read the Excel file into a DataFrame
 df = pd.read_excel(file_path)
 
-# Now, you can work with the DataFrame 'df' 
-
+# Now, you can work with the DataFrame 'df' as needed
+print(
