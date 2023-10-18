@@ -8,4 +8,4 @@ class Computer:
         print("Configuration is", self.name, self.age)
 
 com1 = Computer("Dominque", 21)
-c
+co
