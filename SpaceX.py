@@ -7,4 +7,4 @@ class Computer:
     def config(self):
         print("Configuration is", self.name, self.age)
 
-com1 = Computer
+com1 = Computer("Domin
