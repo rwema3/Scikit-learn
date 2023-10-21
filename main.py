@@ -5,4 +5,5 @@ def makeCommits (days : int):
         os.system('git push')
     else:
         dates = f"{days} days ago"
+        with open('data.txt', 'a') as file:
     
