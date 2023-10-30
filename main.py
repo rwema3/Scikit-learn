@@ -1,3 +1,4 @@
 import os
 
-def makeCommits 
+def makeCommits (days : int):
+    if days < 1:
